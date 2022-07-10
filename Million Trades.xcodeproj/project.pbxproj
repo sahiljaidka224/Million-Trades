@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFA0B6F287AC80E00FD314C /* Million_TradesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0B6E287AC80E00FD314C /* Million_TradesApp.swift */; };
+		AAFA0B71287AC80E00FD314C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0B70287AC80E00FD314C /* ContentView.swift */; };
+		AAFA0B73287AC81000FD314C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFA0B72287AC81000FD314C /* Assets.xcassets */; };
+		AAFA0B76287AC81000FD314C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFA0B75287AC81000FD314C /* Preview Assets.xcassets */; };
+		AAFA0B80287AC81100FD314C /* Million_TradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0B7F287AC81100FD314C /* Million_TradesTests.swift */; };
+		AAFA0B8A287AC81100FD314C /* Million_TradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0B89287AC81100FD314C /* Million_TradesUITests.swift */; };
+		AAFA0B8C287AC81100FD314C /* Million_TradesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0B8B287AC81100FD314C /* Million_TradesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFA0B7C287AC81100FD314C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFA0B63287AC80E00FD314C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFA0B6A287AC80E00FD314C;
+			remoteInfo = "Million Trades";
+		};
+		AAFA0B86287AC81100FD314C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFA0B63287AC80E00FD314C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFA0B6A287AC80E00FD314C;
+			remoteInfo = "Million Trades";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFA0B6B287AC80E00FD314C /* Million Trades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Million Trades.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA0B6E287AC80E00FD314C /* Million_TradesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Million_TradesApp.swift; sourceTree = "<group>"; };
+		AAFA0B70287AC80E00FD314C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFA0B72287AC81000FD314C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFA0B75287AC81000FD314C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFA0B7B287AC81100FD314C /* Million TradesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Million TradesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA0B7F287AC81100FD314C /* Million_TradesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Million_TradesTests.swift; sourceTree = "<group>"; };
+		AAFA0B85287AC81100FD314C /* Million TradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Million TradesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFA0B89287AC81100FD314C /* Million_TradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Million_TradesUITests.swift; sourceTree = "<group>"; };
+		AAFA0B8B287AC81100FD314C /* Million_TradesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Million_TradesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFA0B68287AC80E00FD314C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B78287AC81100FD314C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B82287AC81100FD314C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFA0B62287AC80E00FD314C = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B6D287AC80E00FD314C /* Million Trades */,
+				AAFA0B7E287AC81100FD314C /* Million TradesTests */,
+				AAFA0B88287AC81100FD314C /* Million TradesUITests */,
+				AAFA0B6C287AC80E00FD314C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFA0B6C287AC80E00FD314C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B6B287AC80E00FD314C /* Million Trades.app */,
+				AAFA0B7B287AC81100FD314C /* Million TradesTests.xctest */,
+				AAFA0B85287AC81100FD314C /* Million TradesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFA0B6D287AC80E00FD314C /* Million Trades */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B6E287AC80E00FD314C /* Million_TradesApp.swift */,
+				AAFA0B70287AC80E00FD314C /* ContentView.swift */,
+				AAFA0B72287AC81000FD314C /* Assets.xcassets */,
+				AAFA0B74287AC81000FD314C /* Preview Content */,
+			);
+			path = "Million Trades";
+			sourceTree = "<group>";
+		};
+		AAFA0B74287AC81000FD314C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B75287AC81000FD314C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAFA0B7E287AC81100FD314C /* Million TradesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B7F287AC81100FD314C /* Million_TradesTests.swift */,
+			);
+			path = "Million TradesTests";
+			sourceTree = "<group>";
+		};
+		AAFA0B88287AC81100FD314C /* Million TradesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0B89287AC81100FD314C /* Million_TradesUITests.swift */,
+				AAFA0B8B287AC81100FD314C /* Million_TradesUITestsLaunchTests.swift */,
+			);
+			path = "Million TradesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFA0B6A287AC80E00FD314C /* Million Trades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA0B8F287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million Trades" */;
+			buildPhases = (
+				AAFA0B67287AC80E00FD314C /* Sources */,
+				AAFA0B68287AC80E00FD314C /* Frameworks */,
+				AAFA0B69287AC80E00FD314C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Million Trades";
+			productName = "Million Trades";
+			productReference = AAFA0B6B287AC80E00FD314C /* Million Trades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFA0B7A287AC81100FD314C /* Million TradesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA0B92287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million TradesTests" */;
+			buildPhases = (
+				AAFA0B77287AC81100FD314C /* Sources */,
+				AAFA0B78287AC81100FD314C /* Frameworks */,
+				AAFA0B79287AC81100FD314C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFA0B7D287AC81100FD314C /* PBXTargetDependency */,
+			);
+			name = "Million TradesTests";
+			productName = "Million TradesTests";
+			productReference = AAFA0B7B287AC81100FD314C /* Million TradesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFA0B84287AC81100FD314C /* Million TradesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFA0B95287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million TradesUITests" */;
+			buildPhases = (
+				AAFA0B81287AC81100FD314C /* Sources */,
+				AAFA0B82287AC81100FD314C /* Frameworks */,
+				AAFA0B83287AC81100FD314C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFA0B87287AC81100FD314C /* PBXTargetDependency */,
+			);
+			name = "Million TradesUITests";
+			productName = "Million TradesUITests";
+			productReference = AAFA0B85287AC81100FD314C /* Million TradesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFA0B63287AC80E00FD314C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AAFA0B6A287AC80E00FD314C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AAFA0B7A287AC81100FD314C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AAFA0B6A287AC80E00FD314C;
+					};
+					AAFA0B84287AC81100FD314C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AAFA0B6A287AC80E00FD314C;
+					};
+				};
+			};
+			buildConfigurationList = AAFA0B66287AC80E00FD314C /* Build configuration list for PBXProject "Million Trades" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFA0B62287AC80E00FD314C;
+			productRefGroup = AAFA0B6C287AC80E00FD314C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFA0B6A287AC80E00FD314C /* Million Trades */,
+				AAFA0B7A287AC81100FD314C /* Million TradesTests */,
+				AAFA0B84287AC81100FD314C /* Million TradesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFA0B69287AC80E00FD314C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA0B76287AC81000FD314C /* Preview Assets.xcassets in Resources */,
+				AAFA0B73287AC81000FD314C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B79287AC81100FD314C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B83287AC81100FD314C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFA0B67287AC80E00FD314C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA0B71287AC80E00FD314C /* ContentView.swift in Sources */,
+				AAFA0B6F287AC80E00FD314C /* Million_TradesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B77287AC81100FD314C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA0B80287AC81100FD314C /* Million_TradesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFA0B81287AC81100FD314C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFA0B8C287AC81100FD314C /* Million_TradesUITestsLaunchTests.swift in Sources */,
+				AAFA0B8A287AC81100FD314C /* Million_TradesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFA0B7D287AC81100FD314C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFA0B6A287AC80E00FD314C /* Million Trades */;
+			targetProxy = AAFA0B7C287AC81100FD314C /* PBXContainerItemProxy */;
+		};
+		AAFA0B87287AC81100FD314C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFA0B6A287AC80E00FD314C /* Million Trades */;
+			targetProxy = AAFA0B86287AC81100FD314C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAFA0B8D287AC81100FD314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFA0B8E287AC81100FD314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFA0B90287AC81100FD314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Million Trades/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-Trades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFA0B91287AC81100FD314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Million Trades/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-Trades";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAFA0B93287AC81100FD314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-TradesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Million Trades.app/Million Trades";
+			};
+			name = Debug;
+		};
+		AAFA0B94287AC81100FD314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-TradesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Million Trades.app/Million Trades";
+			};
+			name = Release;
+		};
+		AAFA0B96287AC81100FD314C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-TradesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Million Trades";
+			};
+			name = Debug;
+		};
+		AAFA0B97287AC81100FD314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahiljaidka.Million-TradesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Million Trades";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFA0B66287AC80E00FD314C /* Build configuration list for PBXProject "Million Trades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA0B8D287AC81100FD314C /* Debug */,
+				AAFA0B8E287AC81100FD314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA0B8F287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million Trades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA0B90287AC81100FD314C /* Debug */,
+				AAFA0B91287AC81100FD314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA0B92287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million TradesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA0B93287AC81100FD314C /* Debug */,
+				AAFA0B94287AC81100FD314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFA0B95287AC81100FD314C /* Build configuration list for PBXNativeTarget "Million TradesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFA0B96287AC81100FD314C /* Debug */,
+				AAFA0B97287AC81100FD314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFA0B63287AC80E00FD314C /* Project object */;
+}
